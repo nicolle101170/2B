@@ -2,8 +2,8 @@
 @import url(banner.css);
 
 .banner{
-    background: blue;
-    color: white;
+    background: var(--azul-degrade);
+    color: var(--branco);
     text-align: center;
     padding: 2.5em 2em;
 }
@@ -20,18 +20,19 @@
 
 .banner_pesquisa{
     background-color: transparent;
-    border: 1px solid white;
-    color: white;
+    border: 1px solid var(--branco);
+    color: var(--branco);
     border-radius: 24px;
     padding: 1em;
     width: 100%;
 }
 
 .banner_pesquisa::placeholder{
+    font-family: var(--fonte-principal);
     font-size: 14px;
     font-weight: 400;
     text-align: center;
-    color: white;
-    background: no-repeat;
+    color: var(--branco);
+    background: url(lupa.svg) no-repeat;
     background-position: 1em;
 }
