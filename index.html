@@ -1,145 +1,60 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AluraBooks</title>
+    <title>Agrinho</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="reset.css">
+    <link rel="shortcut icon" href="cesj.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-<link
-rel="stylesheet"
-href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <header class="cabecalho">
-       <div class="container">
-        <input type="checkbox" id="menu" class="container_botao">
-        <label for="menu">
-        <span class="cabecalho__menu-hamburguer"></span>
-        <img src="Logo.svg" alt="Logo da AluraBooks">
-    </label>
-    <ul class="lista_menu">
-        <li class="lista-menu_titulo">Categorias</li>
-        <li class="lista-menu_item">
-            <a href="#" class="lista-menu_link">Programação</a>
-        </li>
-        <li class="lista-menu_item">
-            <a href="#" class="lista-menu_link">Front-end</a>
-        </li>
-        <li class="lista-menu_item">
-            <a href="#" class="lista-menu_link">Infraestrutura</a>
-        </li>
-        <li class="lista-menu_item">
-            <a href="#" class="lista-menu_link">Business</a>
-        </li>
-        <li class="lista-menu_item">
-            <a href="#" class="lista-menu_link">Design & UX</a>
-        </li>
-    </ul>
-        </div>
-        <div class="container">
-        <a href="#"><img src="Favoritos.svg" alt="Favoritos" class="container_imagem"></a>
-        <a href="#"><img src="Compras.svg" alt="Compras" class="container_imagem"></a>
-        <a href="#"><img src="Usuario.svg" alt="Perfil" class="container_imagem"></a>
-    </div>
-</header>
-    <section class="banner">
-            <h2 class="banner_titulo">Já sabe por onde começar?</h2>
-            <p class="banner_texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
-            <input type="search" class="banner_pesquisa" placeholder="Qual será sua proxima leitura?">
-    </section>
-    <section class="carrossel">
-        <h2 class="carrossel__titulo">Novos Lançamentos</h2>
-        <!-- Slider main container -->
-<div class="swiper">
-    <!-- Additional required wrapper -->
-     <div class="swiper-pagition"></div>
-    <div class="swiper-wrapper">
-      <!-- Slides -->
-      <div class="swiper-slide"><img src="ApacheKafka.svg" alt="Livro apache kafka"></div>
-      <div class="swiper-slide"><img src="Javascript.svg" alt="Livro javascript"></div>
-      <div class="swiper-slide"><img src="Portugol.svg" alt="Livro portugol"></div>
-      ...
-    </div>
-    <!-- If we need pagination -->
-    <div class="swiper-pagination"></div>
-  
-    <!-- If we need navigation buttons -->
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-button-next"></div>
-  
-    <!-- If we need scrollbar -->
+        <img class="cesj" src="cesj.png" alt="Colégio Estadual São José" >
+        <h1 class="titulo_principal">Do campo à cidade, colhendo oportunidades</h1>
+        <p class="paragrafo_principal">Neste site falaremos sobre os recentes avanços tecnológicos na agricultura, quem são os principais responsáveis por tal e como isso tudo beneficia os jovens</p>
+    </header>
 
-  </div>
-        <div class="card">
-            <div class="card__descricao">
-                <div class="descricao">
-                    <h3 class="descricao_titulo">Talvez você também se interesse por ....</h3>
-                    <h2 class="descricao_titulo-livro">Angular 11 e Firebase</h2>
-                    <p class="descricao__texto">Construindo uma aplicação integrada com a plataforma do google.</p>
-                </div>
-                <img src="angular.svg" class="descrição__imagem">
-                <div class=”card__botoes”>
-                    <!-- Primeira coluna -->
-                    <ul class=”botoes”>
-                    <li class=”botoes__item”><img src=”img/Favoritos.svg”
-                    
-                    alt=”Favoritar livro”></li>
-                    
-                    <li class=”botoes__item”><img src=”img/Compras.svg”
-                    
-                    alt=”Adicionar no carrinho de compras”></li>
-                    </ul>
-                    <a href=”#” class=”botoes__ancora”>Saiba mais</a>
-                    </div>
-            </div>
-        </div>
-    </section>
-    <section class="topicos">
-        <h2 class="topicos_titulos">topicos visitados recentamente<
-    </h2>
-    <ul class="topicos_lista">
-        <li class="topicos_intem">
-            <a href="#" class="topicos_link"> android</a>
-        </li>
-        <li class="topicos_intem">
-            <a href="#" class="topicos_link"> marketing digital</a>
-        </li>
-        <li class="topicos_intem">
-            <a href="#" class="topicos_link"> agile</a>
-            <li class="topicos_intem">
-        </li>
-        <li class="topicos_intem">
-            <a href="#" class="topicos_link"> startups</a>
-        </li>
-        <li class="topicos_intem">
-            <a href="#" class="topicos_link">html e css</a>
-        </li>
-        <li class="topicos_intem">
-            <a href="#" class="topicos_link"> python</a>
-        </li>
-        <li class="topicos_intem">
-            <a href="#" class="topicos_link"> oo</a>
-        </li>
-        <li class="topicos_intem">
-            <a href="#" class="topicos_link"> java</a>
-        </li>
-    </ul>
-    </section>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> 
-    <script>
-        const swiper = new Swiper('.swiper', {
-            spaceBetween: 10,
-            slidesPerView: 3,
-            pagination:{
-                el: '.swiper-pagination',
-                type: 'bullets',
-            }
-        });
-    </script>
+    <nav class="menu">
+        <a href="index.html" class="menu_item">Início</a>
+        <a href="avancos.html" class="menu_item">Avanços tecnológicos</a>
+        <a href="responsaveis.html" class="menu_item">Principais Responsáveis</a>
+        <a href="beneficios.html" class="menu_item">Benefícios aos Jovens</a>
+    </nav>
+    <main>
+        <article>
+            <h2>Avanços tecnológicos na agricultura</h2>
+            <p>Nos últimos anos, a agricultura brasileira tem experimentado avanços tecnológicos significativos, que
+                estão ajudando a aumentar a produtividade, eficiência e sustentabilidade do setor. Falaremos um pouco
+                mais sobre esses avanços <a href="avancos.html" class="links">"aqui"</a>.
+                <img class="container_imagens" src="avancos.jpg" alt="Homem segurando um tablet em um campo" >
+                <a href="https://br.freepik.com/fotos-gratis/close-up-homem-usando-um-tablet-em-um-campo_5132525.htm#fromView=search&page=1&position=0&uuid=0df9e376-fe92-4c0c-a2f4-f97eae287d04" class="links_out">Imagem de freepik</a>
+            </p>
+            <h2>Os principais responsáveis pelo recente avanço tecnológico</h2>
+            <p>Os avanços tecnológicos na agricultura resultam da colaboração entre diversos agentes, incluindo empresas
+                de tecnologia agrícola como John Deere, Bayer Crop Science e Corteva Agriscience, startups inovadoras
+                como Indigo Agriculture, AeroFarms e Farmers Edge, e instituições de pesquisa como a UC Davis, IRRI e
+                EMBRAPA. Organizações governamentais e ONGs, como a FAO e o USDA, também desempenham um papel crucial,
+                juntamente com agricultores e produtores que adotam e implementam essas inovações. Investidores e fundos
+                de capital de risco, como SoftBank Vision Fund e Temasek Holdings, financiam e incentivam o
+                desenvolvimento de novas tecnologias, impulsionando a sustentabilidade e a eficiência no setor agrícola. Veja mais <a href="responsaveis.html" class="links">"aqui"</a>.
+                <img class="container_imagens" src="responsaveis.jpg" alt="agricultura inteligente">
+                <a href="https://br.freepik.com/fotos-gratis/agricultura-inteligente-com-iot-agricola_17121960.htm#fromView=search&page=1&position=2&uuid=1d6048a3-9b40-4e0d-ba48-11a8b179a397" class="links_out">Imagem de rawpixel</a>
+            </p>
+            <h2>Benefícios dos avanços tecnológicos para os jovens</h2>
+                <p>Os avanços tecnológicos na agricultura aumentam a produtividade, reduzem o trabalho manual, promovem a sustentabilidade e abrem oportunidades para o empreendedorismo jovem, melhorando a qualidade de vida e facilitando o acesso a informações e mercados. Essas inovações tornam a agricultura mais atrativa e viável para os jovens. Confira mais <a href="beneficios.html" class="links">"aqui"</a>.</p>
+                <img class="container_imagens" src="jovens.jpg" alt="Crianças pequenas usando novas tecnologias">
+                <a href="https://www.freepik.com/free-photo/little-children-using-new-technologies_3464912.htm#fromView=search&page=2&position=3&uuid=0974492d-b4ec-47b3-bb10-9ff711ce868d" class="links_out">Image by freepik</a>
+        </article>
+    </main>
+    <footer>
+        <p>Site criado por Gusthavo Silva para participar do projeto Agrinho</p>
+    </footer>
 </body>
+
 </html>
