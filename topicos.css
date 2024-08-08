@@ -20,7 +20,7 @@
     margin: 2em 0.5em;
 }
 .topicos_link{
-    color:var(--branco);
+    color: var(--branco);
     padding: 1em;
     background-color: var(--laranja);
     text-decoration: none;
