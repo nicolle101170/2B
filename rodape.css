@@ -22,5 +22,31 @@ hr{
         align-items: center;
         margin: 0 6em 0;
     }
-    .lista__rodape
+    .lista__rodape__link{
+        color: var(--cinza);
+        text-decoration: none;
+        margin-left: 0 6em;
+    }
+    .lista-rodape__titulo{
+        font-size: 14px;
+        color: var(--cinza-claro);
+    }
+    .rodape__titulos{
+        font-size: 24px;
+    }
+    .lista-rodape{
+        display: none;
+    }
+}
+.lista-rodape{
+    display: block;
+}
+@media screen and (min-width: 1728px){
+    .lista-rodape{
+        border-left: 1px solid var(--cinza-claro);
+        padding: 1em;
+    }
+    .rodape{
+        padding: 3em 0;
+    }
 }
