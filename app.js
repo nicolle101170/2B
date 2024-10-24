@@ -19,3 +19,14 @@ function criarCartao(categoria, pergunta, resposta){
         container.appendChild(cartao)
 
 }
+  
+let respostaEstavisivel = false
+container.appendChild(cartao)
+
+function viraCartao () {
+                                      respostaEstavisivel = !respostaEstavisivel
+         cartao.classlis.toogle('active',
+            respostaEstavisivel)                             
+}
+
+cartao.addeventlistener('click', viracartao)
